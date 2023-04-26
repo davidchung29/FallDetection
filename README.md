@@ -1,2 +1,4 @@
 # FallDetection
-Training a ResNet CNN to detect falls.
+Used ResNet-50 to train a model to detect falls
+
+Code is not final
