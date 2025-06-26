@@ -1,8 +1,11 @@
 # Fall Detection via Transfer Learning with ResNet-50
 
 **Author**: David Chung 
+
 **Project Date** November 2022 - January 2023
+
 **Collaborators**: Under the mentorship of Prof. Amit Roy-Chowdhury and PhD student Abhishek Aich, UC Riverside  
+
 **Technologies**: PyTorch · OpenCV · ResNet-50 · Transfer Learning · Lambda Labs GPU  
 
 ---
