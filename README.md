@@ -8,13 +8,11 @@
 
 **Technologies**: PyTorch · OpenCV · ResNet-50 · Transfer Learning · Lambda Labs GPU  
 
----
 
 ## 🧠 Overview
 
 This project explores the application of deep learning for real-time fall detection using convolutional neural networks (CNNs). Falls are a major public health concern, and this system is designed to detect them accurately from live video input. We developed a two-stage pipeline using **transfer learning with ResNet-50**, first training on the **UCF101 action recognition dataset** and then fine-tuning on the **E-FPDS fall detection dataset**. The final model achieved **99.5% accuracy** in fall classification — outperforming state-of-the-art methods such as YOLO-based TD architectures.
 
----
 
 ## 🧪 Project Highlights
 
@@ -34,8 +32,6 @@ This project explores the application of deep learning for real-time fall detect
 - 🚀 **Accelerated training**
   - All models trained using Lambda Labs eGPU instance with GPU acceleration for reproducibility and efficiency.
 
----
-
 ## 📂 Dataset Info
 
 | Dataset   | Description                                   | Usage              |
@@ -45,8 +41,6 @@ This project explores the application of deep learning for real-time fall detect
 
 - UCF101 source: [UCF CRCV](https://www.crcv.ucf.edu/data/UCF101.php)  
 - E-FPDS source: [E-FPDS Download](https://gram.web.uah.es/data/datasets/fpds/index.html)
-
----
 
 ## 🏗️ Architecture
 
@@ -69,7 +63,6 @@ This project explores the application of deep learning for real-time fall detect
 - Learning Rate Scheduler: StepLR (step_size=7, gamma=0.1)  
 - Epochs: 5 (UCF101) + 5 (E-FPDS)
 
----
 
 ## 🔍 Results
 
@@ -81,8 +74,6 @@ This project explores the application of deep learning for real-time fall detect
 | Avg Validation Loss      | 0.00018         | 0.00           |
 
 > 📈 E-FPDS model surpassed the performance of prior SOTA models including YOLOv6 and TD-model benchmarks.
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -104,17 +95,11 @@ This project explores the application of deep learning for real-time fall detect
    python train_efpds.py
    ```
 
----
-
 ## 📈 Future Work
 
 - Expand to multi-person fall detection using bounding boxes
 - Deploy as a web or mobile service for healthcare applications
 
----
-
 ## 🙏 Acknowledgments
 
 This project was conducted under the guidance of **Prof. Amit Roy-Chowdhury** and **PhD student Abhishek Aich** at **UC Riverside** as part of a research initiative to explore AI in public health applications.
-
----
